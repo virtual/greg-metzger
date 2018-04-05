@@ -39,8 +39,9 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Greg Metzger for Gallatin County Clerk and Recorder"
+    subtitle = 'Greg Metzger, as Clerk and Recorder ensuring the accuracy of recorded Records, and the integrity, timeliness, and correctness of election results. Two of Montanan’s ultimate right to expect from their County government.
+'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -48,30 +49,14 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "I will bring my community experiences and leadership skills to the Clerk and Recorders office to not only continue the established excellence of todays office, but to adopt our systems to the continued growth of our population and voter base."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
-
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -80,9 +65,9 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Community Involvement"
+    description = "Getting to know your community includes being involved in it"
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -122,7 +107,7 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -144,37 +129,64 @@ theme = "hugo-elate-theme"
       img = "person3.jpg"
       alt = "Person3"
     
-
-
+ 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Resume"
+    description = "Professional Experience"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Bozeman Fiber"
+      description = "General Manager, Present- Start up operation to bring high speed broadband to help our county grow and prosper"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Ressler Motors"
+      description = "Car sales 2016 -2017"
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Montana Opticom"
+      description = "Sales and Marketing Manager, 2015-2016 – market and sell high speed internet and broadband in the county."
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      title = "KBZK"
+      description = "Sales and Marketing Manager for Gallatin and Silverbow counties, 2011 – 2014. Trained and lead award winning sales team"      
       icon = "icon-monitor"
+
+      
+      [[params.services.item]]
+      title = "Aquilavision, PLC. COO, 2011"
+      description = "Start –up data communications company"      
+      icon = "icon-monitor"
+
+      [[params.services.item]]
+      title = "CVR, Inc. dba Montana Furniture"
+      description = "President, 1996 -2010 Pesident/Owner, developed manufacturing from $1.15 to over $5 million. Opened new markets with 6 new stores and more than 480 dealers in 23 states."      
+      icon = "icon-monitor"
+
+      [[params.services.item]]
+      title = "Sealed Air Corporation"
+      description = "VP and General Manager, 1995 –Trigon Products division, manufacturing and sales of Banking and Air courier envelopes"      
+      icon = "icon-monitor"
+
+      [[params.services.item]]
+      title = "Trigon Packaging, CEO and President"
+      description = "1987 -1994- Manufacturing, R & D, Sales and distribution of envelopes. Started as assistant production manager and ended up as President and CEO of International envelop company at the time of purchase by Sealed Air."      
+      icon = "icon-monitor"
+      
+      [[params.services.item]]
+      title = "Boeing Commercial Airplane Company "
+      description = "Composites research technician and Project Manager, 1985-1987, Industrial Engineer 757 Line, 1985 -1986"      
+      icon = "icon-monitor" 
+
+
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -216,7 +228,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -255,17 +267,16 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
-    title = "Get in touch"
+    title = "Contact Info"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Greg Metzger<br/>4 Park Plaza<br/>Bozeman Mt 59715"],
+        ["icon-phone", "(406) 551-3265"],
+        ["icon-envelope", "<a href='#'>metzgerforclerkandrecoder@gmail.com</a>"] 
       ]
 
     name = "Name"
@@ -276,7 +287,7 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],
