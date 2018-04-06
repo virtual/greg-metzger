@@ -90,18 +90,21 @@
   border-radius: 50%;
 } 
 #fh5co-services { background: #fff; background-color:#fff; }
-.fh5co-service:nth-of-type(2n+1) {
+.fh5co-text:nth-of-type(4n+1), .fh5co-service:nth-of-type(2n+1) {
   clear: both;
 }
-#fh5co-services *, #fh5co-services .icon:before, #fh5co-services h3, #fh5co-services .section-heading h2 {color:#2569ad;  }
+#fh5co-services *, #fh5co-services .icon:before, #fh5co-services h3, #fh5co-services .section-heading h2 {
+  color:#2569ad;  
+}
 #fh5co-services .section-heading h2 { text-align: center;}
-#fh5co-services .section-heading, #fh5co-about .section-heading  { margin:0; padding:0;}
+#fh5co-contact .section-heading, #fh5co-services .section-heading, #fh5co-about .section-heading  { margin:0; padding:0;}
 #fh5co-services h3 { border-bottom: 10px solid #0e529f; font-size: 3rem; padding: .5rem 0;}
 #fh5co-services h4 { font-size: 2rem; font-weight: 600; margin-bottom:.5rem;}
 #fh5co-services p { text-align:left;}
 @media (min-width: 768px) { 
   #fh5co-services p { padding-left: 3rem; padding-right: 3rem;}
 }
+.navbar-collapse { border-top: 0;}
 #fh5co-services2, #fh5co-contact {
   background-color: #0e529f;
   /* IE9, iOS 3.2+ */
@@ -280,7 +283,7 @@
 
 #fh5co-intro { padding-bottom: 1em;}
 #fh5co-intro .fh5co-block, #fh5co-intro .row { width: 100%; font-size: 2rem; font-weight: 400;} 
-#fh5co-intro .row { width: 60%; margin:0 auto; }
+#fh5co-intro .row { width: 80%; margin:0 auto; }
 #fh5co-intro .fh5co-block  {
   min-height: auto;
   border-top: 10px solid #0e529f;
@@ -327,6 +330,7 @@ a { color:#0e529f;}
   #fh5co-home {
     background-position: 40% !important;
   }
+  #fh5co-intro .row { width: 60%;}
 }
 #fh5co-home .text-inner h2 { 
   background: rgba(0, 68, 119, 0.67);
@@ -336,7 +340,7 @@ a { color:#0e529f;}
 
 .logo-xs, .navbar-fixed-top .logo-sm { display:none;}
 
-.navbar-fixed-top .logo-xs { display:block;}
+.navbar-fixed-top .logo-xs, .navbar-collapse.in .logo-xs { display:block;}
 #fh5co-intro .row-bottom-padded-lg { padding-bottom:0;}
 
 .panel-default > .panel-heading {
@@ -352,3 +356,12 @@ a { color:#0e529f;}
 .panel h4 {
   color: #0e529f; font-size: 2rem; 
 }
+a:hover, a:active, a:focus {
+  color: #ed2024;
+  outline: #0e529f;
+}
+#footer { color:#585858;padding-bottom: 0;}
+footer small {
+  font-size: 1.2rem;
+} 
+  

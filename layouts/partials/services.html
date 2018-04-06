@@ -1,4 +1,4 @@
-	<section id="fh5co-services">
+	<section id="fh5co-services" data-section="services">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
@@ -7,7 +7,7 @@
 				</div>
       </div>
       <h3>Professional Experience</h3>
-			<div class="row" data-section="services">
+			<div class="row">
 			{{ range .Site.Params.services.item }}
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<h4>{{ .title | markdownify }}</h4>

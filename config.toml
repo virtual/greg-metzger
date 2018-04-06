@@ -5,21 +5,22 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+   
+  custom_css = ["css/custom1.css"]
 
   # Meta
   author = ""
-  description = ""
-  email = ""
+  fimage = "share.jpg"
+  description = "Greg Metzger will bring community experiences and leadership skills to the Gallatin County Clerk and Recorder's Office."
+  email = "metzgerforclerkandrecoder@gmail.com"
   # Navigation
   [params.navigation]
     brand = "Greg Metzger"
-    home = "Home"
+    #home = "Home"
+    about = "About"
     work = "Community"
     testimonials = "Testimonials"
     services = "Resume"
-    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -49,7 +50,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Plan"
-    description = "I will bring my community experiences and leadership skills to the Clerk and Recorders office to not only continue the established excellence of todays office, but to adopt our systems to the continued growth of our population and voter base."
+    description = "I will bring my community experiences and leadership skills to the Clerk and Recorder's Office to not only continue the established excellence of todays office, but to adopt our systems to the continued growth of our population and voter base."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
@@ -65,45 +66,76 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Community Involvement"
+    title = "Community"
     description = "Getting to know your community includes being involved in it"
     footertext = ''
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+ 
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+    [[params.work.row]] 
+      title = "Bozeman Rotary"
+      subtitle = "Member"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+    [[params.work.row]] 
+      title = "Mountain Valley Boy Scout Council"
+      subtitle = "Member"
 
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+    [[params.work.row]] 
+      title = "Montana State Boy Scout Council"
+      subtitle = "VP Finances"
 
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+         [[params.work.row]] 
+      title = "Leadership Montana"
+      subtitle = "Graduate"
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+    [[params.work.row]] 
+      title = "Mountain WestBank"
+      subtitle = "Community Board Member"
+
+    [[params.work.row]] 
+      title = "Central Valley Fire District"
+      subtitle = "Director "
+
+    [[params.work.row]] 
+      title = "Gallatin Airport Board"
+      subtitle = "Director "
+
+    [[params.work.row]] 
+      title = "MSU Jake Jabs College of Business and Entrepreneurship"
+      subtitle = "Board of Advisors"
+
+    [[params.work.row]] 
+      title = "MSU School of Advisors"
+      subtitle = "Chairman (1 year)"
+
+    [[params.work.row]] 
+      title = "Riverside Country Club"
+      subtitle = "Board Member"
+
+    [[params.work.row]] 
+      title = "Riverside Country Club "
+      subtitle = "Chairman (2 years)"
+
+    [[params.work.row]] 
+      title = "Gallatin County"
+      subtitle = "Planning Board"
+
+    [[params.work.row]] 
+      title = " Bozeman Area Chamberof Commerce"
+      subtitle = "Board of Directors (2 terms)"
+
+    [[params.work.row]] 
+      title = " Chamber"
+      subtitle = "Chairman  (1 year)"
+
+    [[params.work.row]] 
+      title = "Bozeman Police Board Foundation"
+      subtitle = "Board Member" 
+
+    [[params.work.row]] 
+      title = "Gallatin County Compensation Committee"
+      subtitle = "Member" 
+
 
   # Testimonials section
   [params.testimonials]
@@ -223,7 +255,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       qid = "6"
       name= "Have you been active in the Gallatin Valley? "
-      description = "My family and I have been active in a variety of activities through the years. Please see the “About” section of the website for some of the details on my activities."  
+      description = "My family and I have been active in a variety of activities through the years. Please see the “Community” section below for some of the details on my activities."  
     [[params.about.item]]
       qid = "7"
       name = "Have you ever held a public office?" 
@@ -280,7 +312,7 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", "Greg Metzger<br/>4 Park Plaza<br/>Bozeman Mt 59715"],
         ["icon-phone", "(406) 551-3265"],
-        ["icon-envelope", "<a href='#'>metzgerforclerkandrecoder@gmail.com</a>"] 
+        ["icon-envelope", "<a href='&#109;ailto&#58;&#109;&#37;65tzg%65rf%&#54;F%&#55;2cl&#101;&#37;72kan&#100;&#114;ec&#111;%64er&#64;g&#37;6Da%69&#108;%2Ec&#37;6F%6D'>metzgerf&#111;rclerka&#110;&#100;r&#101;&#99;oder&#64;gm&#97;il&#46;com</a>"] 
       ]
 
     name = "Name"
@@ -293,8 +325,4 @@ theme = "hugo-elate-theme"
   [params.footer]
     enable = true
     copyright = 'Paid for by Metzger for Clerk and Recorder Committee<br/><small>&copy; Elate Free HTML5. All Rights Reserved. | Created by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>  |  Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a></small>'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-      ]
+    

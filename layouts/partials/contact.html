@@ -7,6 +7,7 @@
 			</div>
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 to-animate">
+          <img src="images/greg-metzger-and-family.jpg" alt="Greg Metzger and his family"/>
 					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
 					<ul class="fh5co-contact-info">
 					{{ range .Site.Params.contact.details }}
@@ -20,13 +21,13 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="name" class="form-control" required="required" name="name" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					<div class="form-group ">
 						{{ with .Site.Params.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
+						<input id="email" class="form-control" required="required" name="_replyto" placeholder="{{ . }}" type="email">
 						{{ end }}
 					</div>
 					<div class="form-group ">
@@ -38,7 +39,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
-						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
+						<textarea id="message" cols="30" required="required" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
 					<div class="form-group ">
