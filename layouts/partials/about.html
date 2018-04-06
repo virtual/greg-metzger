@@ -1,0 +1,37 @@
+<section id="fh5co-about" data-section="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+				</div>
+      </div>
+      <div class="  to-animate"> 
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			{{ range .Site.Params.about.item }}
+			<div class="row">
+				<div class="col-md-12">
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading{{ .qid  }}">
+                  <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ .qid  }}" aria-expanded="false" aria-controls="collapse{{ .qid  }}">
+                        {{ .name | markdownify }}  
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse{{ .qid  }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ .qid  }}">
+                    <div class="panel-body">
+                       {{ .description | markdownify }}    
+                  </div>
+                </div>
+              </div>
+  </div>
+
+					</div>
+      {{ end }}
+      
+				</div>
+      
+			</div>
+		</div>
+	</section>

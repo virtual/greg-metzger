@@ -16,9 +16,9 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Greg Metzger"
     home = "Home"
-    work = "Work"
+    work = "Community"
     testimonials = "Testimonials"
-    services = "Services"
+    services = "Resume"
     about = "About"
     contact = "Contact"
 
@@ -182,49 +182,53 @@ theme = "hugo-elate-theme"
       description = "Composites research technician and Project Manager, 1985-1987, Industrial Engineer 757 Line, 1985 -1986"      
       icon = "icon-monitor" 
 
+  [edu.services]
+    enable = true
+    title = "Resume"
+    description = "Professional Experience"
+       [[params.edu.item]]
+      title = "MBA, Engineering and Technical Management; 1987 City University, Bellevue WA." 
+       [[params.edu.item]]
+      title = "BS, Industrial technology; 1985 Western Washington University, Bellingham WA."  
+
 
 
   # About section
   [params.about]
-    enable = false
+    enable = true
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
+      qid = "1"
+      name = "What are the roles and duties of Clerk and Recorder" 
+      description = "<ol><li>The county clerk of a county is also clerk of the county commissioners and ex officio recorder. A duty imposed by law upon the officer, whether as county clerk, clerk of the county commissioners, or recorder, must be performed by the county clerk, and any official act performed or certified by the county clerk is as valid and effectual as if performed and certified by the clerk of the county commissioners or the recorder.</li><li>The county clerk shall:<ol type='a'><li>take charge of and safely keep or dispose of according to law all books, papers, maps, and records that may be filed or deposited in the county clerk&rsquo;s office;</li><li>record all the proceedings of the board;</li><li>make full entries of all its resolutions and decisions on all questions concerning the raising of money for and the allowance of accounts against the county;</li><li>record the vote of each member on a question upon which there is a division or at the request of any member present;</li><li>sign all orders made and warrants issued by order of the board for the payment of money and certify the orders and warrants to the county treasurer;</li><li>record the reports of the county treasurer of the receipts and disbursements of the county;</li><li>preserve and file all accounts acted upon by the board;</li><li>preserve and file all petitions and applications for franchises and record the action of the board on the petitions and applications;</li><li>record all orders levying taxes;</li><li>designate upon each account allowed by the board the amount allowed and deliver to any person who may demand it a certified copy of any record or any account on file in the county clerk&rsquo;s office;</li><li>when a new township is organized or the boundaries of a township are altered, immediately make out and transmit to the secretary of state a certified statement of the names and boundaries of the township organized or altered;</li><li>keep other records and books and perform other duties that are prescribed by law or by rule or order of the board.</li></ol></li><li>An election administrator shall file, code, and cross-index all reports and statements filed as prescribed by the commissioner of political practices.</li><li>An election administrator shall make statements and other information filed under the provisions of Title 13, chapters 35, 36, and 37, available for public inspection and copying during the office hours determined by the governing body by resolution after a public hearing and make copying facilities available free of charge or at a charge not to exceed actual cost.</li></ol>"
+      
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
+     qid = "2"
+      name = "Why do you want this position?" 
+      description = "I love being an American.  The essence of freedom is the ability to vote and select your own government.  Next would be the ownership of land or a home.<br/><br/>The Clerk and Recorder position is charged with running the elections and recording the transfer of land ownership, marriage licensing, administering oaths of office and ensuring the orderly progression of government and life."  
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+      qid = "3"
+      name = "What qualifies you for this job?" 
+      description = "I have been a manager for most of the last 35 years.  Serving in the US Navy, I was a manager (Aerographers Mate 1rst Class) of a shift in the weather office and in charge of training.  After my undergraduate school(BS Industrial technology), I worked at Boeing as an Industrial Engineer, sequencing parts and the installation of those parts in 757’s.  I then moved to a comppositess research division and, while doing my own research, I also ran the budgets and schedules for the other engineers in my group.<br/><br/>During this period at Boeing, I started and completed my MBA.  This allowed me to move to Trigon Packaging, a New Zealand based company with a factory in Seattle.  I started as Assistant Planner and ended up as the President a year later.  About 18 months after that I was given responsibility for plants in England and France.  We then added another plant in Cambridge England and built another U.S. plant in Atlanta.  This brought my responsibility to over 600 employees.<br/><br/>The company was sold on Dec 31, 1994.  I stayed with the new company, Sealed Air, through 1995 and then came to Montana in 1996.  We bought Montana Furniture and grew the factory and added six more stores also distributing and selling furniture in 23 states.  At our maximum, we had more than 140 employees in three states.  With the recession, we were forced to close our operation in 2010.<br/><br/>Since then, I have worked for KBZK as the Sales and Marketing Manager, Ressler Motors as a sales person and currently as the General Manager of Bozeman Fiber.<br/><br/>So, the short answer is I have a significant amount of experience in various management roles in a variety of industries and businesses.  My strengths are the creation of efficient and productive teams, molding technology into an integral part of business and being flexible and capable of changing as a situation, technology and/or business evolves. With these experiences comes extensive budgeting and planning abilities."  
+    [[params.about.item]]
+      qid = "4"
+      name = "How long have you lived in Bozeman?" 
+      description = "Since October 1996."  
+    [[params.about.item]]
+      qid = "5"
+      name = "Have you ever worked in the Recorder or Elections Office?" 
+      description = "I worked in the Elections Office in 2017 as a helper in the primary and general elections."  
+    [[params.about.item]]
+      qid = "6"
+      name= "Have you been active in the Gallatin Valley? "
+      description = "My family and I have been active in a variety of activities through the years. Please see the “About” section of the website for some of the details on my activities."  
+    [[params.about.item]]
+      qid = "7"
+      name = "Have you ever held a public office?" 
+      description = "The director position of the Central Valley Fire district was an elected position, as is the Riverside Water and Sewer District. "  
+  
 
   # Counters section
   [params.counters]
@@ -287,8 +291,8 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = false
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    enable = true
+    copyright = 'Paid for by Metzger for Clerk and Recorder Committee<br/><small>&copy; Elate Free HTML5. All Rights Reserved. | Created by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>  |  Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a></small>'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
