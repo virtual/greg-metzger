@@ -2,6 +2,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPSKDN6');</script>
+    <!-- End Google Tag Manager -->
 <!--     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO - Hugo port by Pieter Saey" />
     <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
     <meta name="author" content="FREEHTML5.CO / Hugo port " />
@@ -33,14 +40,20 @@
 
     <!-- Facebook and Twitter integration -->
     {{ if not .Site.Params.OpenGraph.hide }}
-    <meta name="og:site_name" content="{{ .Site.Title }}">
-    <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta name="og:url" content="{{ .Permalink }}">
-    <meta name="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.fimage }}">
-    <meta name="twitter:title" content="{{ .Site.Title }}" />
-    <meta name="twitter:url" content="{{ .Permalink }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.fimage }}" />
-    <meta name="twitter:card" content="" />
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}"/>
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Site.Params.fimage }}">
+    <meta property="twitter:title" content="{{ .Site.Title }}" />
+    <meta property="twitter:url" content="{{ .Permalink }}" />
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}/images/{{ .Site.Params.fimage }}" />
+    <meta property="twitter:card" content="" />
+    <meta property="og:locale" content="en_us" />
+    <link rel="image_src" href="{{ .Site.BaseURL }}/images/{{ .Site.Params.fimage }}" />
+  
     {{ end }}
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <!--     

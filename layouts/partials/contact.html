@@ -17,6 +17,7 @@
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
+            <img style="padding: 10px;" src="./images/greg-metzger-for-gallatin-county-clerk-and-recorder-inverse.png" alt="Greg Metzger for Clerk and Recorder">
 					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
@@ -45,7 +46,9 @@
 					<div class="form-group ">
 						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
 					</div>
-					</form>
+          </form>
+          
+          
 				</div>
 				{{ end }}
 			</div>

@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313" # metzgerforclerkandrecorder.com 
+baseurl = "https://metzgerforclerkandrecorder.com" # localhost:1313
 title = "Greg Metzger for Clerk and Recorder"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -171,48 +171,56 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Bozeman Fiber"
-      description = "General Manager, Present- Start up operation to bring high speed broadband to help our county grow and prosper"
+      description = "General Manager, Present, Start up operation to bring high speed broadband to Bozeman and help our county grow and prosper"
       icon = "icon-anchor"
 
     [[params.services.item]]
       title = "Ressler Motors"
-      description = "Car sales 2016 -2017"
+      description = "Car sales, 2016-2017"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Montana Opticom"
-      description = "Sales and Marketing Manager, 2015-2016 – market and sell high speed internet and broadband in the county."
+      description = "2015-2016, Sales and Marketing Manager: market and sell high speed internet and broadband in the county."
       icon = "icon-video2"
 
       [[params.services.item]]
       title = "KBZK"
-      description = "Sales and Marketing Manager for Gallatin and Silverbow counties, 2011 – 2014. Trained and lead award winning sales team"      
+      description = "2011–2014, Sales and Marketing Manager for Gallatin and Silverbow counties. Trained and lead award winning sales team"      
       icon = "icon-monitor"
 
       
       [[params.services.item]]
-      title = "Aquilavision, PLC. COO, 2011"
-      description = "Start –up data communications company"      
+      title = "Aquilavision, PLC. COO"
+      description = "2011, Start–up data communications company"      
       icon = "icon-monitor"
 
       [[params.services.item]]
       title = "CVR, Inc. dba Montana Furniture"
-      description = "President, 1996 -2010 Pesident/Owner, developed manufacturing from $1.15 to over $5 million. Opened new markets with 6 new stores and more than 480 dealers in 23 states."      
+      description = "President, 1996-2010, Pesident/Owner, developed manufacturing from $1.15 to over $5 million. Opened new markets with 6 new stores and more than 480 dealers in 23 states."      
       icon = "icon-monitor"
 
       [[params.services.item]]
       title = "Sealed Air Corporation"
-      description = "VP and General Manager, 1995 –Trigon Products division, manufacturing and sales of Banking and Air courier envelopes"      
+      description = "VP and General Manager, 1995, Trigon Products division, manufacturing and sales of Banking and Air courier envelopes"      
       icon = "icon-monitor"
 
       [[params.services.item]]
       title = "Trigon Packaging, CEO and President"
-      description = "1987 -1994- Manufacturing, R & D, Sales and distribution of envelopes. Started as assistant production manager and ended up as President and CEO of International envelop company at the time of purchase by Sealed Air."      
+      description = "1987-1994, Manufacturing, R & D, Sales and distribution of envelopes. Started as assistant production manager and ended up as President and CEO of International envelop company at the time of purchase by Sealed Air."      
       icon = "icon-monitor"
       
       [[params.services.item]]
       title = "Boeing Commercial Airplane Company "
-      description = "Composites research technician and Project Manager, 1985-1987, Industrial Engineer 757 Line, 1985 -1986"      
+      description = "1985-1987, Composites research technician and Project Manager, 1985-1987; Industrial Engineer 757 Line, 1985-1986"      
       icon = "icon-monitor" 
+
+      [[params.services.item]]
+      title = "U.S. Navy "
+      description = "1974-1981, Aerographers Mate 1st Class; Worked in Typhoon Warning Center (Guam) 1975-1977; Worked as Midwest Weather Training Officer and Flight Forecaster, Glenview Il, 1977-1979; Worked as a Fight forecaster, Whidbey Island, WA 1979-1981"      
+      icon = "icon-monitor" 
+
+
+      
 
   [edu.services]
     enable = true
@@ -221,7 +229,7 @@ theme = "hugo-elate-theme"
        [[params.edu.item]]
       title = "MBA, Engineering and Technical Management; 1987 City University, Bellevue WA." 
        [[params.edu.item]]
-      title = "BS, Industrial technology; 1985 Western Washington University, Bellingham WA."  
+      title = "BS, Industrial Technology; 1985 Western Washington University, Bellingham WA."  
 
 
 
@@ -233,7 +241,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       qid = "1"
-      name = "What are the roles and duties of Clerk and Recorder" 
+      name = "What are the roles and duties of Clerk and Recorder?" 
       description = "<ol><li>The county clerk of a county is also clerk of the county commissioners and ex officio recorder. A duty imposed by law upon the officer, whether as county clerk, clerk of the county commissioners, or recorder, must be performed by the county clerk, and any official act performed or certified by the county clerk is as valid and effectual as if performed and certified by the clerk of the county commissioners or the recorder.</li><li>The county clerk shall:<ol type='a'><li>take charge of and safely keep or dispose of according to law all books, papers, maps, and records that may be filed or deposited in the county clerk&rsquo;s office;</li><li>record all the proceedings of the board;</li><li>make full entries of all its resolutions and decisions on all questions concerning the raising of money for and the allowance of accounts against the county;</li><li>record the vote of each member on a question upon which there is a division or at the request of any member present;</li><li>sign all orders made and warrants issued by order of the board for the payment of money and certify the orders and warrants to the county treasurer;</li><li>record the reports of the county treasurer of the receipts and disbursements of the county;</li><li>preserve and file all accounts acted upon by the board;</li><li>preserve and file all petitions and applications for franchises and record the action of the board on the petitions and applications;</li><li>record all orders levying taxes;</li><li>designate upon each account allowed by the board the amount allowed and deliver to any person who may demand it a certified copy of any record or any account on file in the county clerk&rsquo;s office;</li><li>when a new township is organized or the boundaries of a township are altered, immediately make out and transmit to the secretary of state a certified statement of the names and boundaries of the township organized or altered;</li><li>keep other records and books and perform other duties that are prescribed by law or by rule or order of the board.</li></ol></li><li>An election administrator shall file, code, and cross-index all reports and statements filed as prescribed by the commissioner of political practices.</li><li>An election administrator shall make statements and other information filed under the provisions of Title 13, chapters 35, 36, and 37, available for public inspection and copying during the office hours determined by the governing body by resolution after a public hearing and make copying facilities available free of charge or at a charge not to exceed actual cost.</li></ol>"
       
     [[params.about.item]]
