@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Greg Metzger for Gallatin County Clerk and Recorder"
-    subtitle = 'Greg Metzger, as Clerk and Recorder ensuring the accuracy of recorded Records, and the integrity, timeliness, and correctness of election results. Two of Montanan’s ultimate right to expect from their County government.
+    subtitle = 'Greg Metzger, as Clerk and Recorder, ensuring the accuracy of recorded Records, and the integrity, timeliness, and correctness of election results—two of a Montanan’s ultimate rights to expect from their county government.
 '
  
   # Intro section
@@ -50,7 +50,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Plan"
-    description = "I will bring my community experiences and leadership skills to the Clerk and Recorder's Office to not only continue the established excellence of todays office, but to adopt our systems to the continued growth of our population and voter base."
+    description = "I will bring my community experiences and leadership skills to the Clerk and Recorder's Office to not only continue the established excellence of todays office but to adopt our systems to the continued growth of our population and voter base."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
@@ -180,18 +180,18 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Montana Opticom"
-      description = "2015-2016, Sales and Marketing Manager: market and sell high speed internet and broadband in the county."
+      description = "Sales and Marketing Manager, 2015-2016, market and sell high speed internet and broadband in the county."
       icon = "icon-video2"
 
       [[params.services.item]]
       title = "KBZK"
-      description = "2011–2014, Sales and Marketing Manager for Gallatin and Silverbow counties. Trained and lead award winning sales team"      
+      description = "Sales and Marketing Manager for Gallatin and Silverbow counties, 2011–2014, Trained and lead award winning sales team"      
       icon = "icon-monitor"
 
       
       [[params.services.item]]
-      title = "Aquilavision, PLC. COO"
-      description = "2011, Start–up data communications company"      
+      title = "Aquilavision, PLC. "
+      description = "COO, 2011, Start–up data communications company"      
       icon = "icon-monitor"
 
       [[params.services.item]]
@@ -201,22 +201,22 @@ theme = "hugo-elate-theme"
 
       [[params.services.item]]
       title = "Sealed Air Corporation"
-      description = "VP and General Manager, 1995, Trigon Products division, manufacturing and sales of Banking and Air courier envelopes"      
+      description = "VP and General Manager, 1995, Trigon Products division, manufacturing and sales of banking and air courier envelopes"      
       icon = "icon-monitor"
 
       [[params.services.item]]
-      title = "Trigon Packaging, CEO and President"
-      description = "1987-1994, Manufacturing, R & D, Sales and distribution of envelopes. Started as assistant production manager and ended up as President and CEO of International envelop company at the time of purchase by Sealed Air."      
+      title = "Trigon Packaging"
+      description = "CEO and President, 1987-1994, Manufacturing, R & D, Sales and distribution of envelopes. Started as assistant production manager and ended up as President and CEO of International envelop company at the time of purchase by Sealed Air."      
       icon = "icon-monitor"
       
       [[params.services.item]]
       title = "Boeing Commercial Airplane Company "
-      description = "1985-1987, Composites research technician and Project Manager, 1985-1987; Industrial Engineer 757 Line, 1985-1986"      
+      description = "Project Manager and Industrial Engineer, 1985-1987, Composites research technician and Project Manager, 1985-1987; Industrial Engineer 757 Line, 1985-1986"      
       icon = "icon-monitor" 
 
       [[params.services.item]]
       title = "U.S. Navy "
-      description = "1974-1981, Aerographers Mate 1st Class; Worked in Typhoon Warning Center (Guam) 1975-1977; Worked as Midwest Weather Training Officer and Flight Forecaster, Glenview Il, 1977-1979; Worked as a Fight forecaster, Whidbey Island, WA 1979-1981"      
+      description = "Various, 1974-1981, Aerographers Mate First Class; Worked in Typhoon Warning Center (Guam) 1975-1977; Worked as Midwest Weather Training Officer and Flight Forecaster, Glenview Il, 1977-1979; Worked as a Flight Forecaster, Whidbey Island, WA 1979-1981"      
       icon = "icon-monitor" 
 
 
@@ -251,7 +251,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       qid = "3"
       name = "What qualifies you for this job?" 
-      description = "I have been a manager for most of the last 35 years.  Serving in the US Navy, I was a manager (Aerographers Mate 1rst Class) of a shift in the weather office and in charge of training.  After my undergraduate school(BS Industrial technology), I worked at Boeing as an Industrial Engineer, sequencing parts and the installation of those parts in 757’s.  I then moved to a comppositess research division and, while doing my own research, I also ran the budgets and schedules for the other engineers in my group.<br/><br/>During this period at Boeing, I started and completed my MBA.  This allowed me to move to Trigon Packaging, a New Zealand based company with a factory in Seattle.  I started as Assistant Planner and ended up as the President a year later.  About 18 months after that I was given responsibility for plants in England and France.  We then added another plant in Cambridge England and built another U.S. plant in Atlanta.  This brought my responsibility to over 600 employees.<br/><br/>The company was sold on Dec 31, 1994.  I stayed with the new company, Sealed Air, through 1995 and then came to Montana in 1996.  We bought Montana Furniture and grew the factory and added six more stores also distributing and selling furniture in 23 states.  At our maximum, we had more than 140 employees in three states.  With the recession, we were forced to close our operation in 2010.<br/><br/>Since then, I have worked for KBZK as the Sales and Marketing Manager, Ressler Motors as a sales person and currently as the General Manager of Bozeman Fiber.<br/><br/>So, the short answer is I have a significant amount of experience in various management roles in a variety of industries and businesses.  My strengths are the creation of efficient and productive teams, molding technology into an integral part of business and being flexible and capable of changing as a situation, technology and/or business evolves. With these experiences comes extensive budgeting and planning abilities."  
+      description = "I have been a manager for most of the last 35 years.  Serving in the US Navy, I was a manager (Aerographers Mate First Class) of a shift in the weather office and in charge of training.  After my undergraduate school(BS Industrial technology), I worked at Boeing as an Industrial Engineer, sequencing parts and the installation of those parts in 757’s.  I then moved to a composites research division and, while doing my own research, I also ran the budgets and schedules for the other engineers in my group.<br/><br/>During this period at Boeing, I started and completed my MBA.  This allowed me to move to Trigon Packaging, a New Zealand based company with a factory in Seattle.  I started as Assistant Planner and ended up as the President a year later.  About 18 months after that, I was given responsibility for plants in England and France.  We then added another plant in Cambridge England and built another U.S. plant in Atlanta.  This brought my responsibility to over 600 employees.<br/><br/>The company was sold on Dec 31, 1994.  I stayed with the new company, Sealed Air, through 1995 and then came to Montana in 1996.  We bought Montana Furniture and grew the factory and added six more stores also distributing and selling furniture in 23 states.  At our maximum, we had more than 140 employees in three states.  With the recession, we were forced to close our operation in 2010.<br/><br/>Since then, I have worked for KBZK as the Sales and Marketing Manager, Ressler Motors as a sales person and currently as the General Manager of Bozeman Fiber.<br/><br/>So, the short answer is I have a significant amount of experience in various management roles in a variety of industries and businesses.  My strengths are the creation of efficient and productive teams, molding technology into an integral part of business and being flexible and capable of changing as a situation, technology and/or business evolves. With these experiences comes extensive budgeting and planning abilities."  
     [[params.about.item]]
       qid = "4"
       name = "How long have you lived in Bozeman?" 
@@ -267,7 +267,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       qid = "7"
       name = "Have you ever held a public office?" 
-      description = "The director position of the Central Valley Fire district was an elected position, as is the Riverside Water and Sewer District. "  
+      description = "I was a Precinct Person for 3 terms. In addition, the director position of the Central Valley Fire district was an elected position, as is the Riverside Water and Sewer District. "  
   
 
   # Counters section
@@ -318,7 +318,7 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Greg Metzger<br/>4 Park Plaza<br/>Bozeman Mt 59715"],
+        ["icon-home", "Greg Metzger<br/>4 Park Plaza<br/>Bozeman MT 59715"],
         ["icon-phone", "(406) 551-3265"],
         ["icon-envelope", "<a href='&#109;ailto&#58;&#109;&#37;65tzg%65rf%&#54;F%&#55;2cl&#101;&#37;72kan&#100;&#114;ec&#111;%64er&#64;g&#37;6Da%69&#108;%2Ec&#37;6F%6D'>metzgerf&#111;rclerka&#110;&#100;r&#101;&#99;oder&#64;gm&#97;il&#46;com</a>"] 
       ]
