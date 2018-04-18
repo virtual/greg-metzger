@@ -377,3 +377,19 @@ img { max-width: 100%; height: auto;}
 a {
   word-wrap: break-word;
 }
+.ipadonly {
+  padding: 10px;
+  position: absolute;
+  top:50px;
+  display:none;
+}
+.isIpad .ipadonly{ display:block;}
+.isIpad #fh5co-home {
+  background-image: none !important;
+}
+.isIpad #fh5co-home .text-inner { padding-top: 80px;}
+
+@media (max-width: 570px) {
+  .ipadonly { top: 200px;}
+  .isIpad #fh5co-home .text-inner {padding-top:200px;}
+}
