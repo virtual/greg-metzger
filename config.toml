@@ -12,7 +12,7 @@ theme = "hugo-elate-theme"
   author = ""
   fimage = "share.jpg"
   description = "Greg Metzger will bring community experiences and leadership skills to the Gallatin County Clerk and Recorder's Office."
-  email = "metzgerforclerkandrecoder@gmail.com"
+  email = "metzgerforclerkandrecorder@gmail.com"
   # Navigation
   [params.navigation]
     brand = "Greg Metzger"
@@ -89,7 +89,7 @@ theme = "hugo-elate-theme"
       subtitle = "Graduate"
 
     [[params.work.row]] 
-      title = "Mountain WestBank"
+      title = "Mountain West Bank"
       subtitle = "Community Board Member"
 
     [[params.work.row]] 
@@ -121,7 +121,7 @@ theme = "hugo-elate-theme"
       subtitle = "Planning Board"
 
     [[params.work.row]] 
-      title = " Bozeman Area Chamberof Commerce"
+      title = " Bozeman Area Chamber of Commerce"
       subtitle = "Board of Directors (2 terms)"
 
     [[params.work.row]] 
@@ -320,7 +320,7 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", "Greg Metzger<br/>4 Park Plaza<br/>Bozeman MT 59715"],
         ["icon-phone", "(406) 551-3265"],
-        ["icon-envelope", "<a href='&#109;ailto&#58;&#109;&#37;65tzg%65rf%&#54;F%&#55;2cl&#101;&#37;72kan&#100;&#114;ec&#111;%64er&#64;g&#37;6Da%69&#108;%2Ec&#37;6F%6D'>metzgerf&#111;rclerka&#110;&#100;r&#101;&#99;oder&#64;gm&#97;il&#46;com</a>"] 
+        ["icon-envelope", "<a href='mail&#116;o&#58;&#109;&#37;65&#116;&#122;gerforcler&#107;an&#100;%7&#50;ec&#111;%72der%&#52;0gm%&#54;1il&#46;c%6Fm'>&#109;e&#116;zg&#101;&#114;&#102;o&#114;clerkand&#114;&#101;c&#111;&#114;der&#64;gma&#105;&#108;&#46;com</a>"] 
       ]
 
     name = "Name"
