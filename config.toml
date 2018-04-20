@@ -332,5 +332,5 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = 'Paid for by Metzger for Clerk and Recorder Committee<br/><small>&copy; Elate Free HTML5. All Rights Reserved. | Created by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>  |  Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a></small>'
+    copyright = 'Paid for by Metzger for Clerk and Recorder <br/><small>&copy; Elate Free HTML5. All Rights Reserved. | Created by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>  |  Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a></small>'
     
