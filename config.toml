@@ -247,7 +247,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
      qid = "2"
       name = "Why do you want this position?" 
-      description = "I love being an American.  The essence of freedom is the ability to vote and select your own government.  Next would be the ownership of land or a home.<br/><br/>The Clerk and Recorder position is charged with running the elections and recording the transfer of land ownership, marriage licensing, administering oaths of office and ensuring the orderly progression of government and life."  
+      description = "I love being an American.  The essence of freedom is the ability to vote and select your own government.  Next would be the ownership of land or a home.<br/><br/>The Clerk and Recorder position is charged with running the elections and recording the transfer of land ownership, administering oaths of office and ensuring the orderly progression of government and life."  
     [[params.about.item]]
       qid = "3"
       name = "What qualifies you for this job?" 
