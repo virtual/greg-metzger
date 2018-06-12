@@ -1,12 +1,44 @@
 <section id="fh5co-about" data-section="about">
 		<div class="container">
-        <p class="refp">Metzger for Clerk and Recorder<br/>4 Park Plaza, Bozeman MT 59715</p>
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
-				</div>
-      </div>
+       
+
       <div class="  to-animate"> 
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Recent News</h2>
+              </div>
+
+          <div class="row">
+          <div class="col-sm-6"> 
+        <div class="row">
+          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+         
+              
+            <div class="flex-video">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9EYHGdNGHhc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+    </div>
+   </div>
+            </div>
+            <div class="col-sm-6">
+              
+              <p><a href="https://www.bozemandailychronicle.com/news/county/metzger-wins-clerk-and-recorder-primary-by-six-votes/article_abd3c500-0e28-5d04-9827-1c864dbff935.html">Metzger wins clerk and recorder primary by six votes</a> <br/><small>June 11, 2018, Bozeman Daily Chronicle</small></p>
+                <hr/>
+              <p><a href="https://www.bozemandailychronicle.com/opinions/letters_to_editor/metzger-honest-best-choice-for-clerk-and-recorder/article_9a798724-74d7-5e4c-b752-bec21beeefc8.html?utm_medium=social&utm_source=email&utm_campaign=user-share">Letter to the Editor: Metzger honest, best choice for clerk and recorder</a> <br/><small>June 1, 2018, Bozeman Daily Chronicle</small></p>
+            </div>
+        </div>
+          </div>
+        
+        </div>
+
+      
+
+        <p class="refp">Metzger for Clerk and Recorder<br/>4 Park Plaza, Bozeman MT 59715</p>
+
+      <div class="  to-animate"> 
+        	<div class="col-md-12 section-heading text-center">
+              <h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+            </div>
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			{{ range .Site.Params.about.item }}
 			<div class="row">
