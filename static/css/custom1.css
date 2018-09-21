@@ -313,8 +313,11 @@ blockquote:after {
 } 
 
 #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-issues {font-size: 2rem; font-weight: 400;}
+#fh5co-about {
+  padding: 4em 0 2em 0;
+}
 #fh5co-issues {
-  padding: 4em 0;
+  padding: 0em 0 4em 0;
 }
 body, .section-heading h3 { color: #333; font-weight: 400;}
 * { box-sizing: border-box}
