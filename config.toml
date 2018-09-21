@@ -17,7 +17,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Greg Metzger"
     #home = "Home"
-    about = "About"
+    about = "About/Issues"
     work = "Community"
     testimonials = "Testimonials"
     services = "Resume"
@@ -141,22 +141,22 @@ theme = "hugo-elate-theme"
   [params.testimonials]
     enable = false
     title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Description"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      quote = "&ldquo;Description Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
       person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      quote = "&ldquo;Description Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Description&rdquo;"
       person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Description &rdquo;"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
@@ -237,7 +237,7 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Description"
 
     [[params.about.item]]
       qid = "1"
@@ -270,6 +270,24 @@ theme = "hugo-elate-theme"
       description = "I was a Precinct Person for 3 terms. In addition, the director position of the Central Valley Fire district was an elected position, as is the Riverside Water and Sewer District. "  
   
 
+  [params.issues]
+  enable = true
+  title = "Issues"
+    description = "Description"
+  
+    [[params.issues.item]]
+    list = "Match quality of security and accuracy with record voter growth." 
+    [[params.issues.item]]
+    list = "Ensure records are accurate and available to the public 24&sol;7." 
+    [[params.issues.item]]
+    list = "Pursue processes that make voter registration easy, but accurate." 
+    [[params.issues.item]]
+    list = "Apply “Best Practices” to our technology in all processes." 
+    [[params.issues.item]]
+    list = "Manage budget effectively ensuring we charge appropriately for services and that we provide value for those services." 
+    [[params.issues.item]]
+    list = "Use experience on Planning Board to ensure fairness and accuracy in the Planning and Zoning Commission." 
+    
   # Counters section
   [params.counters]
     enable = false
@@ -314,7 +332,7 @@ theme = "hugo-elate-theme"
     map = false
     form = true
     title = "Contact Info"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Description"
     
     # Available icons: http://simplelineicons.com/
     details = [

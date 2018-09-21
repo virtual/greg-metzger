@@ -1,0 +1,29 @@
+<section id="fh5co-issues" data-section="issues">
+		<div class="container">
+       
+  
+
+        <p class="refp">Metzger for Clerk and Recorder<br/>4 Park Plaza, Bozeman MT 59715</p>
+
+      <div class="  to-animate"> 
+        	<div class="col-md-12 section-heading text-center">
+              <h2 class="to-animate">{{ with .Site.Params.issues.title }}{{ . | markdownify }}{{ end }}</h2>
+            </div>
+      
+        <div class="row">
+          <div class="col-md-12">
+               <ul>
+                 {{ range .Site.Params.issues.item }}
+
+
+              <li>{{ .list | markdownify }}  </li>
+             
+      {{ end }}
+    </ul>
+  </div>
+
+					</div>
+				</div>
+      
+		</div>
+	</section>

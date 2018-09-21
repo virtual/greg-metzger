@@ -97,7 +97,7 @@
   color:#2569ad;  
 }
 #fh5co-services .section-heading h2 { text-align: center;}
-#fh5co-contact .section-heading, #fh5co-services .section-heading, #fh5co-about .section-heading  { margin:0; padding:0;}
+#fh5co-contact .section-heading, #fh5co-services .section-heading, #fh5co-about .section-heading, #fh5co-issues .section-heading  { margin:0; padding:0;}
 #fh5co-services h3 { border-bottom: 10px solid #0e529f; font-size: 3rem; padding: .5rem 0;}
 #fh5co-services h4 { font-size: 2rem; font-weight: 600; margin-bottom:.5rem;}
 #fh5co-services p { text-align:left;}
@@ -312,7 +312,10 @@ blockquote:after {
   display: inline;
 } 
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {font-size: 2rem; font-weight: 400;}
+#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-issues {font-size: 2rem; font-weight: 400;}
+#fh5co-issues {
+  padding: 4em 0;
+}
 body, .section-heading h3 { color: #333; font-weight: 400;}
 * { box-sizing: border-box}
 a { color:#0e529f;}

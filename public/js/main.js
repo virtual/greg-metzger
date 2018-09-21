@@ -354,6 +354,36 @@
 			} , { offset: '80%' } );
 
 		}
+  };
+  
+  var issuesAnimate = function() {
+		var issues = $('#fh5co-issues');
+		if ( issues.length > 0 ) {	
+
+			issues.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						issues.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
 	};
 
 	var countersAnimate = function() {
@@ -468,6 +498,7 @@
 		testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
+		issuesAnimate();
 		countersAnimate();
 		contactAnimate();
 		

@@ -14,6 +14,9 @@
   <!-- End Google Tag Manager (noscript) -->
         {{ partial "nav.html" .}}
 
+
+<!--  ! EDIT THE FILE AT greg-metzger\themes\hugo-elate-theme\layouts\index.html -->
+
 		{{ partial "hero.html" .}}
 		
         {{ partial "intro.html" .}}
@@ -21,6 +24,13 @@
         {{ if .Site.Params.about.enable }}
         {{ partial "about.html" .}}
   {{ end }}
+
+
+
+  {{ if .Site.Params.issue.enable }}
+  {{ partial "issues.html" .}}
+{{ end }}
+
   
 		{{ if .Site.Params.work.enable }}
        		{{ partial "work.html" .}}
